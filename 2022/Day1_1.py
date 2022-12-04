@@ -20,19 +20,12 @@ def getElves(input):
     return elfList
 
 
-def elfTotal(array):
-    total = 0
-    for calories in array:
-        total += calories
-    return total
-
-
 # ______________________MAIN______________________
 def main():
     elves = getElves(file)
     max = 0
     for i in elves:
-        elfTotals = elfTotal(i)
+        elfTotals = sum(i)
         if elfTotals > max:
             max = elfTotals
     print(max)

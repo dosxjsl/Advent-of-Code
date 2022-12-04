@@ -19,19 +19,12 @@ def getElves(input):
     return elfList
 
 
-def elfTotal(array):
-    total = 0
-    for calories in array:
-        total += calories
-    return total
-
-
 # ______________________MAIN______________________
 def main():
     elves = getElves(file)
     allElves = []
     for i in elves:
-        allElves.append(elfTotal(i))
+        allElves.append(sum(i))
 
     allElves.sort(reverse=True)
 
