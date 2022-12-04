@@ -1,7 +1,5 @@
 ![Advent of Code](https://blog.pythondiscord.com/content/images/size/w1000/2021/03/AoC_banner.png)
 
-<!-- # Advent of Code -->
-
 <h1><b>Advent of Code</b></h1>
 <p>
     This is me attempting to do Advent of Code<br>
@@ -16,7 +14,8 @@
             text-align: center;
         }
     </style>
-    <h2><b>2022 Results</b></h2>
+</head>
+<body><h2><b>2022 Results</b></h2>
     <table>
         <tr> <!--ROW 2-->
             <th>Day</th>
@@ -49,4 +48,4 @@
             <td>🧊</td>
         </tr>
     </table>
-</head>
+</body>
