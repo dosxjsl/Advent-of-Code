@@ -4,7 +4,7 @@
 
 This is me attempting to do Advent of Code
 
-<a href="https://adventofcode.com/">https://adventofcode.com/</a>
+https://adventofcode.com/
 
 ## **2022 Results**
 
